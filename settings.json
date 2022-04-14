@@ -1,0 +1,279 @@
+{
+    "License": "contact @safarsyam",
+    "Account": {
+        "Username": "xxxxxx",
+        "Password": "xxxxxx"
+    },
+    "Play Game": {
+        "Mode": "dice",
+        "Demo Mode": "OFF",
+        "Currency": "BTT",
+        "Show Price": "ON",
+        "Delay Bet(ms)": "0"
+    },
+    "Target": {
+        "Profit (amt)": "0",
+        "Profit (%)": "10",
+        "Balance": "0",
+        "Lose": "0"
+    },
+    "Stopwin": {
+        "On Profit": "True",
+        "If Maxbet": "0",
+        "If Balance Drop (%)": "0",
+        "After LS": "0"
+    },
+    "Repeat Play": {
+        "Status": "OFF",
+        "Delay (sec)": "900"
+    },
+    "Auto WD": {
+        "Status": "OFF",
+        "Trigger Balance": "200000",
+        "Amount WD": "1000000",
+        "Tip Username": "please edit this with your pasino username, leave it blank if want to WD to wallet",
+        "Wallet": {
+            "Is Faucetpay": "False",
+            "Address": "TTtGDWyET9kCAN53S51ZnKoZoYsKkNF4Pi"
+        }
+    },
+    "Auto Remove History": {
+        "Status": "ON",
+        "Size Limit (MB)": "5"
+    },
+    "Reset Seed": {
+        "Status": "ON",
+        "Start Game": "False",
+        "After Bet": "1200",
+        "After Play (min)": "60"
+    },
+    "Bet Roll": {
+        "Bet High": "False",
+        "Hi / Low": {
+            "Toggle": "ON",
+            "If Lose": "1",
+            "If Win": "1"
+        }
+    },
+    "Bet Amount": {
+        "Base": "0.1",
+        "Preroll Bet": "0.000001",
+        "Shoot Bet": "50",
+        "Auto Shoot": {
+            "Status": "False",
+            "After LS": "11",
+            "After WS": "0"
+        },
+        "Balance Divider": {
+            "Status": "OFF",
+            "Divider": "5000000"
+        }
+    },
+    "Betset": {
+        "Sicepat": {
+            "Toggle": "OFF",
+            "Profit Reset": "0.00000001",
+            "Chance Win": {
+                "Min": "90",
+                "Max": "93"
+            },
+            "Chance Lose": {
+                "Min": "10",
+                "Max": "19"
+            }
+        },
+        "Sigesit": {
+            "Toggle": "OFF",
+            "Profit Reset": "0.0000001",
+            "Cut Lose": "10",
+            "Preroll": "10",
+            "Multipler": "1.25",
+            "Chance Win": {
+                "Min": "69",
+                "Max": "69"
+            },
+            "Chance Lose": {
+                "Min": "9",
+                "Max": "12"
+            }
+        },
+        "Marti": {
+            "Toggle": "ON",
+            "Chance": {
+                "Min": "43",
+                "Max": "43"
+            },
+            "If Win": "1",
+            "If Lose": "2",
+            "Reset if profit": "0.2",
+            "Reset if win": "0",
+            "Reset if lose": "0",
+            "Reset if maxbet": "0"
+        },
+        "Preroll": {
+            "Toggle": "OFF",
+            "Profit Reset": "0.00000001",
+            "Preroll": "5",
+            "Chance": {
+                "Min": "9",
+                "Max": "12"
+            },
+            "If Win": "1",
+            "If Lose": "1.52"
+        },
+        "DAlembert Wannabe": {
+            "Toggle": "OFF",
+            "Profit Reset": "0.0000001",
+            "Chance": {
+                "Min": "43",
+                "Max": "43"
+            }
+        },
+        "Fibonacci": {
+            "Toggle": "OFF",
+            "Chance": {
+                "Min": "16",
+                "Max": "33"
+            },
+            "Reset if profit": "0.0001",
+            "Reset if win": "0",
+            "Reset if lose": "0",
+            "Reset if maxbet": "0"
+        },
+        "Labouchere": {
+            "Toggle": "OFF",
+            "Profit Reset": "0.0000001",
+            "Chance": {
+                "Min": "9",
+                "Max": "40"
+            }
+        },
+        "Wageran": {
+            "Toggle": "OFF",
+            "Target Wager": "500",
+            "Wager": {
+                "Base": "0.01",
+                "CHMin": "94.1",
+                "CHMax": "94.7"
+            },
+            "Recovery": {
+                "Base": "0.0001",
+                "CHMin": "20.1",
+                "CHMax": "24.5",
+                "If Win": "1",
+                "If Lose": "1.4",
+                "Preroll": "5",
+                "Reset if profit": "0.0000001"
+            }
+        },
+        "Autobot": {
+            "Toggle": "OFF",
+            "Balance Divider": "500000",
+            "Payout": {
+                "Min": "1.15",
+                "Max": "5"
+            },
+            "Risk (%)": "8",
+            "Multipler": "1.35",
+            "Reverse Logic": "False"
+        },
+        "MrBOT": {
+            "Toggle": "OFF",
+            "Balance Divider": "20",
+            "Auto Shoot": "false",
+            "Algo (1 - 5)": "4"
+        },
+        "JumpJack": {
+            "Toggle": "OFF",
+            "Reset Jump if Profit": "5",
+            "Reset Jump if Win": "0",
+            "Continuous Bet": "False",
+            "Mode": [
+                {
+                    "Name": "Satu",
+                    "Status": "ON",
+                    "Base": "10",
+                    "If Win": "1",
+                    "If Lose": "1",
+                    "Reset if profit": "0",
+                    "Reset if win": "0",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "95",
+                        "Max": "95"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0"
+                    }
+                },
+                {
+                    "Name": "Dua",
+                    "Status": "ON",
+                    "Base": "0.1",
+                    "If Win": "1",
+                    "If Lose": "2.1",
+                    "Reset if profit": "0.2",
+                    "Reset if win": "2",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "40",
+                        "Max": "46"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "2"
+                    }
+                },
+                {
+                    "Name": "Tiga",
+                    "Status": "ON",
+                    "Base": "0.1",
+                    "If Win": "1",
+                    "If Lose": "1.45",
+                    "Reset if profit": "0.00000001",
+                    "Reset if win": "0",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "20",
+                        "Max": "26"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "3"
+                    }
+                },
+                {
+                    "Name": "Empat",
+                    "Status": "On",
+                    "Base": "0.1",
+                    "If Win": "1",
+                    "If Lose": "1.65",
+                    "Reset if profit": "0.00000001",
+                    "Reset if win": "0",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "30",
+                        "Max": "35"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "5"
+                    }
+                }
+            ]
+        }
+    }
+}
